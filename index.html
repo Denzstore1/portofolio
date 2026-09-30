@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denz Tempest | Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- ===== LOADING SCREEN ===== -->
+<div id="loading-screen">
+    <div class="loader-content">
+        <h1 class="loader-name">Denz Tempest</h1>
+        <video class="loader-video" autoplay muted loop playsinline preload="auto">
+            <source src="img/loading.mp4" type="video/mp4">
+        </video>
+        <p class="loader-sub">Developer · Creator</p>
+        <div class="loader-bar">
+            <div class="loader-progress" id="loader-progress"></div>
+        </div>
+        <p class="loader-text" id="loader-text">Loading...</p>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="portfolio-navbar">
+
+    <div class="portfolio-menu">
+
+        <a href="#" class="portfolio-nav-btn">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#about" class="portfolio-nav-btn">
+            <i class="fa-solid fa-user"></i>
+            <span>About</span>
+        </a>
+
+        <a href="#skills" class="portfolio-nav-btn">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+        </a>
+
+        <a href="#project" class="portfolio-nav-btn">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>Project</span>
+        </a>
+
+        <a href="#contact" class="portfolio-nav-btn">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+
+    </div>
+
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div class="hero-left">
+        <p class="welcome">Welcome</p>
+        <h1>ʜᴀɪɪ ᴇᴠᴇʀʏᴏɴᴇ<br>ɪ'ᴍ <span>ᴅᴇɴʀᴀ sᴀᴘᴜᴛʀᴀ</span></h1>
+        <p class="typing" id="typing"></p>
+        <p class="desc">
+            I am a developer focused on building modern, secure, and efficient websites. 
+            With growing expertise in Backend, Frontend, Fullstack, Cyber Security, Padahal Vibe coder 😭. 
+        </p>
+
+        <div class="stats">
+            <div class="stat">
+                <h3>10+</h3>
+                <p>Projects</p>
+            </div>
+            <div class="stat">
+                <h3>2+</h3>
+                <p>Years Exp</p>
+            </div>
+            <div class="stat">
+                <h3>∞</h3>
+                <p>Learning</p>
+            </div>
+        </div>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn primary">Hire Me →</a>
+            <a href="#project" class="btn secondary">View Projects</a>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <div class="phone-frame">
+            <video class="hero-video" autoplay muted loop playsinline preload="auto">
+                <source src="img/hero.mp4" type="video/mp4">
+            </video>
+            <button type="button" class="sound-btn" id="sound-btn" aria-label="Nyalakan suara">
+                <i class="fa-solid fa-volume-xmark"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-grid">
+        <!-- Profile Card -->
+        <div class="profile-card">
+            <div class="profile-img">
+                <img src="img/profile.jpg" alt="Denra Saputra">
+            </div>
+            <h3>Denra Saputra</h3>
+            <p class="profile-role">Developer · Denz Tempest</p>
+
+            <div class="profile-info">
+                <div class="info-row">
+                    <span>ᴜᴍᴜʀ</span>
+                    <strong>16 Tahun</strong>
+                </div>
+                <div class="info-row">
+                    <span>ʜᴏʙɪ</span>
+                    <strong>Coding, Musik, Eksplor Tech</strong>
+                </div>
+                <div class="info-row">
+                    <span>ᴄɪᴛᴀ ᴄɪᴛᴀ</span>
+                    <strong>Fullstack Dev & Cyber Security</strong>
+                </div>
+            </div>
+
+            <a href="https://wa.me/6285798898725" target="_blank" class="wa-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                Chat WhatsApp
+            </a>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="about-content">
+            <p>
+                Saya adalah seorang siswa SMK, juga seorang vibe coder, dan saya sedang
+                <strong>Belajar</strong>, <strong>Python</strong>, <strong>JS</strong>, 
+                dan <strong>Cyber Security</strong>. 
+                Saya Suka membangun website modern, efisien, dan aman.
+            </p>
+            <p>
+                Saat ini saya juga mengelola <strong>DENZ STORE</strong> — platform penjualan produk digital 
+                seperti script bot, VPS, panel, dan apk premium.
+            </p>
+            <p>
+                Selalu open untuk kolaborasi, project, atau sekadar ngobrol seputar tech.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML</h3></div>
+        <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3></div>
+        <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3></div>
+        <div class="skill-card"><i class="fa-brands fa-python"></i>
+    <h3>Python</h3></div>
+        <div class="skill-card"><i class="fa-brands fa-node-js"></i><h3>Node.js</h3></div>
+        <div class="skill-card"><i class="fa-solid fa-database"></i><h3>MySQL</h3></div>
+        <div class="skill-card"><i class="fa-brands fa-linux"></i><h3>Linux</h3></div>
+        <div class="skill-card"><i class="fa-solid fa-shield-halved"></i><h3>Cyber Sec</h3></div>
+        <div class="skill-card"><i class="fa-solid fa-code"></i><h3>Express</h3></div>
+        <div class="skill-card"><i class="fa-solid fa-brain"></i>
+  <h3>AI / ML</h3>
+</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="project">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-info">
+                <h3>DENZ STORE</h3>
+                <p>Website jualan produk digital (Script Bot, VPS, Panel, Akun Premium) dengan sistem admin lengkap.</p>
+                <div class="tags">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>EJS</span>
+                    <span>MariaDB</span>
+                </div>
+                <a href="#project" class="project-link">Lihat Project →</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-info">
+                <h3>BOT XPPLG1</h3>
+                <p>Bot whatsapp 6285126340849</p>
+                <div class="tags"><span>script</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Fav Song -->
+<section class="section" id="favsong">
+    <h2 class="section-title">Lagu Favorit</h2>
+
+    <div class="player-wrapper">
+        <div class="music-card">
+            <!-- Cover + Vinyl -->
+            <div class="player-left">
+                <div class="cover-box">
+                    <img src="img/lagu.jpg" alt="Cover" id="coverImg">
+                </div>
+                <div class="vinyl-disc" id="vinylDisc"></div>
+            </div>
+
+            <!-- Info + Controls -->
+            <div class="player-right">
+                <div class="track-info">
+                    <h3 id="trackTitle">Jomblo</h3>
+                    <p id="trackArtist">Riyanti Darlia, Raka Mahesa</p>
+                </div>
+
+                <!-- Waveform -->
+                <div class="waveform" id="waveform">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+
+                <!-- Progress -->
+                <div class="progress-wrap">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="progressBar" value="0" min="0" max="100">
+                    <span id="duration">0:00</span>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <button id="btnPrev" title="Previous"><i class="fa-solid fa-backward-step"></i></button>
+                    <button id="btnPlay" class="play-main"><i class="fa-solid fa-play" id="playIcon"></i></button>
+                    <button id="btnNext" title="Next"><i class="fa-solid fa-forward-step"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Song List -->
+        <div class="song-list">
+            <button class="song-btn active" data-index="0">
+                <span class="song-num">01</span>
+                <div>
+                    <strong>Jomblo</strong>
+                    <small>Riyanti Darlia, Raka Mahesa</small>
+                </div>
+            </button>
+            <button class="song-btn" data-index="1">
+                <span class="song-num">02</span>
+                <div>
+                    <strong>Impostor Syndrome</strong>
+                    <small>Sidney Gish</small>
+                </div>
+            </button>
+            <button class="song-btn" data-index="2">
+                <span class="song-num">03</span>
+                <div>
+                    <strong>Boyband</strong>
+                    <small>Tipe-X</small>
+                </div>
+            </button>
+            <button class="song-btn" data-index="3">
+                <span class="song-num">04</span>
+                <div>
+                    <strong>Empat Mata</strong>
+                    <small>D'Masiv</small>
+                </div>
+            </button>
+            <button class="song-btn" data-index="4">
+                <span class="song-num">05</span>
+                <div>
+                    <strong>Bila Kau Tak Disampingku</strong>
+                    <small>Sheila On 7</small>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <audio id="audio"></audio>
+</section>
+
+<!-- Contact -->
+<section class="section contact-section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-grid">
+        <!-- Tombol -->
+        <div class="contact-buttons">
+            <p class="contact-desc">call me broww klo ada masalah</p>
+
+            <a href="https://wa.me/6285798898725" target="_blank" class="c-btn wa">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://instagram.com/denz_munyuk" target="_blank" class="c-btn ig">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://github.com/Denzstore1" target="_blank" class="c-btn gh">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:denztempest1@gmail.com" class="c-btn em">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://tiktok.com/@denz.tempest" target="_blank" class="c-btn tt">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+            </a>
+            <a href="https://t.me/Denzprikitiw" target="_blank" class="c-btn tg">
+                <i class="fa-brands fa-telegram"></i>
+                <span>Telegram</span>
+            </a>
+            <a href="https://whatsapp.com/channel/0029Vb8Sgcr90x2wKI48900k" target="_blank" class="c-btn wach">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Channel WA</span>
+            </a>
+        </div>
+
+        <!-- Tata Surya (tanpa kotak) -->
+        <div class="solar-box">
+            <div id="solar-container"></div>
+            <p class="solar-hint">© ᴄᴏᴘʏʀɪɢʜᴛ</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Denz Tempest</p>
+</footer>
+
+<script>
+    // ===== LOADING SCREEN =====
+    const loadingScreen = document.getElementById("loading-screen");
+    const progressBar = document.getElementById("loader-progress");
+    const loaderText = document.getElementById("loader-text");
+
+    let progress = 0;
+    const interval = setInterval(() => {
+        progress += Math.random() * 15;
+        if (progress >= 100) {
+            progress = 100;
+            clearInterval(interval);
+            loaderText.textContent = "Ready";
+            setTimeout(() => {
+                loadingScreen.classList.add("hide");
+                setTimeout(() => loadingScreen.style.display = "none", 600);
+            }, 400);
+        }
+        progressBar.style.width = progress + "%";
+        loaderText.textContent = Math.floor(progress) + "%";
+    }, 120);
+    
+    // ===== SOUND TOGGLE HERO VIDEO =====
+    const heroVideo = document.querySelector(".hero-video");
+    const soundBtn = document.getElementById("sound-btn");
+    soundBtn.addEventListener("click", () => {
+        heroVideo.muted = !heroVideo.muted;
+        soundBtn.innerHTML = heroVideo.muted
+            ? '<i class="fa-solid fa-volume-xmark"></i>'
+            : '<i class="fa-solid fa-volume-high"></i>';
+    });
+
+    // ===== TYPING EFFECT =====
+    const titles = [
+        "ʙᴀᴄᴋᴇɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+        "ғʀᴏɴᴛᴇɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+        "ᴠɪʙᴇ ᴄᴏᴅᴇʀʀʀʀʀʀʀ",
+        "ᴡᴇʙ ᴅᴇᴠᴇʟᴏᴘᴇʀ",
+        "ᴄʏʙᴇʀ sᴇᴄᴜʀɪᴛʏ ᴇɴᴛʜᴜsɪᴀsᴛ"
+    ];
+    let titleIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingEl = document.getElementById("typing");
+
+    function type() {
+        const current = titles[titleIndex];
+        if (isDeleting) {
+            typingEl.textContent = current.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            typingEl.textContent = current.substring(0, charIndex + 1);
+            charIndex++;
+        }
+        if (!isDeleting && charIndex === current.length) {
+            isDeleting = true;
+            setTimeout(type, 1800);
+            return;
+        }
+        if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            titleIndex = (titleIndex + 1) % titles.length;
+        }
+        setTimeout(type, isDeleting ? 50 : 100);
+    }
+    type();
+
+    // ===== MUSIC PLAYER =====
+(function () {
+    const playlist = [
+        { title: "Jomblo", artist: "Riyanti Darlia, Raka Mahesa", src: "img/song1.mp3" },
+        { title: "Impostor Syndrome", artist: "Sidney Gish", src: "img/song2.mp3" },
+        { title: "Boyband", artist: "Tipe-X", src: "img/song3.mp3" },
+        { title: "Empat Mata", artist: "D'Bagindas", src: "img/song4.mp3" },
+        { title: "Bila Kau Tak Disampingku", artist: "Sheila On 7", src: "img/song5.mp3" }
+    ];
+
+    let currentIndex = 0;
+    let isPlaying = false;
+
+    const audio = document.getElementById("audio");
+    const playBtn = document.getElementById("btnPlay");
+    const playIcon = document.getElementById("playIcon");
+    const prevBtn = document.getElementById("btnPrev");
+    const nextBtn = document.getElementById("btnNext");
+    const progressBar = document.getElementById("progressBar");
+    const currentTimeEl = document.getElementById("currentTime");
+    const durationEl = document.getElementById("duration");
+    const trackTitle = document.getElementById("trackTitle");
+    const trackArtist = document.getElementById("trackArtist");
+    const vinylDisc = document.getElementById("vinylDisc");
+    const waveform = document.getElementById("waveform");
+    const songBtns = document.querySelectorAll(".song-btn");
+
+    // Kalau elemen penting tidak ada, hentikan biar tidak error
+    if (!audio || !playBtn || !playIcon) {
+        console.log("Music player elements not found");
+        return;
+    }
+
+    function loadTrack(index) {
+        currentIndex = index;
+        const track = playlist[index];
+        audio.src = track.src;
+        if (trackTitle) trackTitle.textContent = track.title;
+        if (trackArtist) trackArtist.textContent = track.artist;
+
+        songBtns.forEach((btn, i) => {
+            btn.classList.toggle("active", i === index);
+        });
+    }
+
+    function formatTime(sec) {
+        if (isNaN(sec)) return "0:00";
+        const m = Math.floor(sec / 60);
+        const s = Math.floor(sec % 60).toString().padStart(2, "0");
+        return m + ":" + s;
+    }
+
+    function playTrack() {
+        audio.play().catch(function () {});
+        isPlaying = true;
+        playIcon.className = "fa-solid fa-pause";
+        if (vinylDisc) vinylDisc.classList.add("spinning");
+        if (waveform) waveform.classList.add("playing");
+    }
+
+    function pauseTrack() {
+        audio.pause();
+        isPlaying = false;
+        playIcon.className = "fa-solid fa-play";
+        if (vinylDisc) vinylDisc.classList.remove("spinning");
+        if (waveform) waveform.classList.remove("playing");
+    }
+
+    playBtn.addEventListener("click", function () {
+        if (isPlaying) pauseTrack();
+        else playTrack();
+    });
+
+    if (prevBtn) {
+        prevBtn.addEventListener("click", function () {
+            currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
+            loadTrack(currentIndex);
+            playTrack();
+        });
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+            currentIndex = (currentIndex + 1) % playlist.length;
+            loadTrack(currentIndex);
+            playTrack();
+        });
+    }
+
+    songBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            const idx = parseInt(btn.getAttribute("data-index"));
+            loadTrack(idx);
+            playTrack();
+        });
+    });
+
+    audio.addEventListener("timeupdate", function () {
+        if (audio.duration && progressBar) {
+            progressBar.value = (audio.currentTime / audio.duration) * 100;
+            if (currentTimeEl) currentTimeEl.textContent = formatTime(audio.currentTime);
+            if (durationEl) durationEl.textContent = formatTime(audio.duration);
+        }
+    });
+
+    if (progressBar) {
+        progressBar.addEventListener("input", function () {
+            if (audio.duration) {
+                audio.currentTime = (progressBar.value / 100) * audio.duration;
+            }
+        });
+    }
+
+    audio.addEventListener("ended", function () {
+        currentIndex = (currentIndex + 1) % playlist.length;
+        loadTrack(currentIndex);
+        playTrack();
+    });
+
+    audio.addEventListener("loadedmetadata", function () {
+        if (durationEl) durationEl.textContent = formatTime(audio.duration);
+    });
+
+    loadTrack(0);
+})();
+
+</script>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const container = document.getElementById('solar-container');
+if (!container) throw new Error('solar-container not found');
+
+const scene = new THREE.Scene();
+scene.background = null;
+
+const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+container.appendChild(renderer.domElement);
+
+// Radius terjauh tata surya (planet terluar + cincin) supaya nggak kepotong
+const SYSTEM_RADIUS = 15.5;
+// Rasio sudut pandang asli (elevasi vs jarak) dari posisi kamera lama (0, 6, 16)
+const ELEV_RATIO = 6 / Math.sqrt(6 * 6 + 16 * 16);   // ≈ 0.351
+const DEPTH_RATIO = 16 / Math.sqrt(6 * 6 + 16 * 16); // ≈ 0.936
+
+function fitCameraToScene() {
+    const w = container.clientWidth;
+    const h = container.clientHeight;
+    const aspect = w / h;
+    camera.aspect = aspect;
+
+    const halfV = (camera.fov * Math.PI / 180) / 2;
+    const distV = SYSTEM_RADIUS / Math.sin(halfV);
+
+    const halfH = Math.atan(Math.tan(halfV) * aspect);
+    const distH = SYSTEM_RADIUS / Math.sin(halfH);
+
+    const dist = Math.max(distV, distH) * 1.08; // sedikit padding
+
+    camera.position.set(0, dist * ELEV_RATIO, dist * DEPTH_RATIO);
+    camera.lookAt(0, 0, 0);
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+}
+
+fitCameraToScene();
+window.addEventListener('resize', fitCameraToScene);
+
+// Controls
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.05;
+controls.enableZoom = true;
+controls.zoomSpeed = 0.7;
+controls.rotateSpeed = 0.5;
+controls.minDistance = 6;
+controls.maxDistance = 80;
+controls.target.set(0, 0, 0);
+
+// Lights
+scene.add(new THREE.AmbientLight(0x222244, 0.5));
+const sunLight = new THREE.PointLight(0xffaa55, 2.2, 50);
+scene.add(sunLight);
+
+// Sun
+const sun = new THREE.Mesh(
+    new THREE.SphereGeometry(1.3, 48, 48),
+    new THREE.MeshStandardMaterial({
+        color: 0xffaa44,
+        emissive: 0xff5500,
+        emissiveIntensity: 2.2,
+        roughness: 0.3
+    })
+);
+scene.add(sun);
+
+const glow = new THREE.Mesh(
+    new THREE.SphereGeometry(1.6, 32, 32),
+    new THREE.MeshBasicMaterial({ color: 0xff8833, transparent: true, opacity: 0.12 })
+);
+scene.add(glow);
+
+// Planets
+const planetsInfo = [
+    { radius: 0.18, distance: 2.5, color: 0xaaaaaa, speed: 0.022 },
+    { radius: 0.26, distance: 3.5, color: 0xffbb77, speed: 0.015 },
+    { radius: 0.28, distance: 4.7, color: 0x4499ff, speed: 0.012 },
+    { radius: 0.23, distance: 5.9, color: 0xdd6644, speed: 0.009 },
+    { radius: 0.55, distance: 7.8, color: 0xddbb99, speed: 0.006 },
+    { radius: 0.48, distance: 10.0, color: 0xeeddbb, speed: 0.0045, ring: true },
+    { radius: 0.35, distance: 12.2, color: 0x77ddff, speed: 0.003 },
+    { radius: 0.33, distance: 14.5, color: 0x3366ff, speed: 0.0022 }
+];
+
+const planets = [];
+
+planetsInfo.forEach((info, i) => {
+    // orbit line
+    const points = [];
+    for (let j = 0; j <= 64; j++) {
+        const a = (j / 64) * Math.PI * 2;
+        points.push(new THREE.Vector3(info.distance * Math.cos(a), 0, info.distance * Math.sin(a)));
+    }
+    const orbit = new THREE.Line(
+        new THREE.BufferGeometry().setFromPoints(points),
+        new THREE.LineBasicMaterial({ color: 0x446688, transparent: true, opacity: 0.18 })
+    );
+    scene.add(orbit);
+
+    const mesh = new THREE.Mesh(
+        new THREE.SphereGeometry(info.radius, 20, 20),
+        new THREE.MeshStandardMaterial({
+            color: info.color,
+            roughness: 0.5,
+            metalness: 0.1,
+            emissive: info.color,
+            emissiveIntensity: 0.06
+        })
+    );
+
+    if (info.ring) {
+        const ring = new THREE.Mesh(
+            new THREE.RingGeometry(info.radius * 1.3, info.radius * 2.1, 48),
+            new THREE.MeshBasicMaterial({ color: 0xccbb99, side: THREE.DoubleSide, transparent: true, opacity: 0.35 })
+        );
+        ring.rotation.x = Math.PI / 2.2;
+        mesh.add(ring);
+    }
+
+    const angle = Math.random() * Math.PI * 2;
+    mesh.position.set(info.distance * Math.cos(angle), 0, info.distance * Math.sin(angle));
+    scene.add(mesh);
+
+    planets.push({ mesh, distance: info.distance, speed: info.speed, angle });
+});
+
+// Stars
+const starCount = 1800;
+const starPos = new Float32Array(starCount * 3);
+for (let i = 0; i < starCount; i++) {
+    const r = 25 + Math.random() * 60;
+    const theta = Math.random() * Math.PI * 2;
+    const phi = Math.acos(Math.random() * 2 - 1);
+    starPos[i*3]     = r * Math.sin(phi) * Math.cos(theta);
+    starPos[i*3 + 1] = r * Math.sin(phi) * Math.sin(theta);
+    starPos[i*3 + 2] = r * Math.cos(phi);
+}
+const starsGeo = new THREE.BufferGeometry();
+starsGeo.setAttribute('position', new THREE.BufferAttribute(starPos, 3));
+scene.add(new THREE.Points(starsGeo, new THREE.PointsMaterial({
+    size: 0.12,
+    color: 0xffffff,
+    transparent: true,
+    opacity: 0.85,
+    blending: THREE.AdditiveBlending
+})));
+
+// Animate
+const clock = new THREE.Clock();
+function animate() {
+    const delta = clock.getDelta();
+
+    planets.forEach(p => {
+        p.angle += p.speed * delta * 8;
+        p.mesh.position.x = p.distance * Math.cos(p.angle);
+        p.mesh.position.z = p.distance * Math.sin(p.angle);
+        p.mesh.rotation.y += delta * 0.4;
+    });
+
+    sun.rotation.y += delta * 0.05;
+    glow.rotation.y += delta * 0.02;
+
+    controls.update();
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+}
+animate();
+</script>
+
+</body>
+</html>
